@@ -8,9 +8,16 @@ app = Flask(__name__)
 
 @app.route("/", methods=['POST','GET'])
 def main_page():
+    #global money
+    #money = request.form.get("money")
+    return render_template("index.html")
+
+
+@app.route("/search", methods=["POST"])
+def search():
     global money
     money = request.form.get("money")
-    return render_template("index.html", money=money)
+    return render_template("search.html", money=money)
 
 
 @app.route("/bags", methods=['POST'])

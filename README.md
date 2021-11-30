@@ -1,6 +1,6 @@
 *Python module to get information about discounts from www.6pm.com
-![alt tag](photo_2021-11-25_15-42-25.jpg) This project enables you to find products at the price you are interested in, percent of discout and stock.
-You can choose bags, sneakers(defult) or other items.
+![alt tag](photo_2021-11-25_15-42-25.jpg) This project enables you to find products at the price you are interested in, percent of discount and stock. You can choose bags, sneakers(default) or other items.
+ You can see it here : https://discount-search.herokuapp.com
 
 ### Required prerequisites :
 certifi==2021.10.8

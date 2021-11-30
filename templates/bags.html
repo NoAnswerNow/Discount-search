@@ -8,7 +8,7 @@
   <div class="container mt-5  fst-italic  ">
           {% for el in data %}
           <a href="{{ el.link }} ">
-          <div class="p-3 mb-2 bg-dark text-white">
+          <div class="p-3 mb-2 bg-info text-white">
             <h2>{{ el.title }}</h2>
             <a  href="{{ el.link }} "></a>
             <p> Price : {{ el.price_base }} ❌ </p>
@@ -16,7 +16,7 @@
             <h2> Sell price : {{ el.price_sale }} ✅</h2>
             <p>In stock : {{ el.onhand }} </p>
             <img src=https://www.6pm.com{{ el.img }}>
-            </a>
+          </a>
           </div>
           {% endfor %}
   </div>
